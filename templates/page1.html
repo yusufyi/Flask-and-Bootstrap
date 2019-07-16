@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+
+{% block PageNo %}
+
+ PAGE 1
+
+{% endblock%}
+
+
+{% block content %}
+<a href="{{ url_for('page2') }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click to Go Page2</a>
+{% endblock%}
